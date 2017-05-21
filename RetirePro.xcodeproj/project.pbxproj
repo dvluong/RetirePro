@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E1FF23790C150D02DE5E5FFF /* Pods_RetirePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E32B1F901EDF557F848FF7 /* Pods_RetirePro.framework */; };
+		FC1FF8931ED21DD800D82A1F /* CompoundChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FF8921ED21DD800D82A1F /* CompoundChartViewController.swift */; };
+		FC23684B1ED215E200042152 /* InputValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC23684A1ED215E200042152 /* InputValueViewController.swift */; };
 		FC296E241E81840900CE4EF4 /* ChartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC296E231E81840900CE4EF4 /* ChartsTableViewController.swift */; };
 		FC296E271E81A43E00CE4EF4 /* CompoundChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC296E261E81A43E00CE4EF4 /* CompoundChart.swift */; };
 		FC51D8741E807B7900E026D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51D8731E807B7900E026D1 /* AppDelegate.swift */; };
-		FC51D8761E807B7900E026D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51D8751E807B7900E026D1 /* ViewController.swift */; };
 		FC51D8791E807B7900E026D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC51D8771E807B7900E026D1 /* Main.storyboard */; };
 		FC51D87C1E807B7900E026D1 /* RetirePro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC51D87A1E807B7900E026D1 /* RetirePro.xcdatamodeld */; };
 		FC51D87E1E807B7900E026D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC51D87D1E807B7900E026D1 /* Assets.xcassets */; };
 		FC51D8811E807B7900E026D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC51D87F1E807B7900E026D1 /* LaunchScreen.storyboard */; };
-		FC51D8891E807EDA00E026D1 /* VisitorCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC51D8881E807EDA00E026D1 /* VisitorCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		171FBDA1892C3D9D356C5E75 /* Pods-RetirePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetirePro/Pods-RetirePro.release.xcconfig"; sourceTree = "<group>"; };
 		571CD64D8AF6488941213239 /* Pods-RetirePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetirePro/Pods-RetirePro.debug.xcconfig"; sourceTree = "<group>"; };
 		66E32B1F901EDF557F848FF7 /* Pods_RetirePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1FF8921ED21DD800D82A1F /* CompoundChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundChartViewController.swift; sourceTree = "<group>"; };
+		FC23684A1ED215E200042152 /* InputValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputValueViewController.swift; sourceTree = "<group>"; };
 		FC296E231E81840900CE4EF4 /* ChartsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsTableViewController.swift; sourceTree = "<group>"; };
 		FC296E261E81A43E00CE4EF4 /* CompoundChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundChart.swift; sourceTree = "<group>"; };
 		FC51D8701E807B7900E026D1 /* RetirePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC51D8731E807B7900E026D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC51D8751E807B7900E026D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC51D8781E807B7900E026D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC51D87B1E807B7900E026D1 /* RetirePro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetirePro.xcdatamodel; sourceTree = "<group>"; };
 		FC51D87D1E807B7900E026D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC51D8801E807B7900E026D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC51D8821E807B7900E026D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC51D8881E807EDA00E026D1 /* VisitorCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,15 +87,15 @@
 			children = (
 				FC296E181E817FD000CE4EF4 /* Support Files */,
 				FC51D8731E807B7900E026D1 /* AppDelegate.swift */,
-				FC51D8751E807B7900E026D1 /* ViewController.swift */,
 				FC51D8771E807B7900E026D1 /* Main.storyboard */,
 				FC51D87D1E807B7900E026D1 /* Assets.xcassets */,
 				FC51D87F1E807B7900E026D1 /* LaunchScreen.storyboard */,
 				FC51D8821E807B7900E026D1 /* Info.plist */,
 				FC51D87A1E807B7900E026D1 /* RetirePro.xcdatamodeld */,
-				FC51D8881E807EDA00E026D1 /* VisitorCount.swift */,
 				FC296E231E81840900CE4EF4 /* ChartsTableViewController.swift */,
 				FC296E261E81A43E00CE4EF4 /* CompoundChart.swift */,
+				FC23684A1ED215E200042152 /* InputValueViewController.swift */,
+				FC1FF8921ED21DD800D82A1F /* CompoundChartViewController.swift */,
 			);
 			path = RetirePro;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 				TargetAttributes = {
 					FC51D86F1E807B7900E026D1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GFB7ZZ38US;
+						DevelopmentTeam = F2DPX9E553;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -207,7 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BC7628FA2F6C8A78183B7139 /* [CP] Embed Pods Frameworks */ = {
@@ -232,11 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC51D8761E807B7900E026D1 /* ViewController.swift in Sources */,
+				FC23684B1ED215E200042152 /* InputValueViewController.swift in Sources */,
 				FC51D8741E807B7900E026D1 /* AppDelegate.swift in Sources */,
-				FC51D8891E807EDA00E026D1 /* VisitorCount.swift in Sources */,
 				FC296E271E81A43E00CE4EF4 /* CompoundChart.swift in Sources */,
 				FC296E241E81840900CE4EF4 /* ChartsTableViewController.swift in Sources */,
+				FC1FF8931ED21DD800D82A1F /* CompoundChartViewController.swift in Sources */,
 				FC51D87C1E807B7900E026D1 /* RetirePro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +360,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GFB7ZZ38US;
+				DEVELOPMENT_TEAM = F2DPX9E553;
 				INFOPLIST_FILE = RetirePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.gse-it.RetirePro";
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GFB7ZZ38US;
+				DEVELOPMENT_TEAM = F2DPX9E553;
 				INFOPLIST_FILE = RetirePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.gse-it.RetirePro";

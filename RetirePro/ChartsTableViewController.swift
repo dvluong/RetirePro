@@ -12,7 +12,7 @@ import RealmSwift
 import SubmitButton
 import TextFieldEffects
 
-typealias ReturnRate = (key: String, value:(Double))
+//typealias ReturnRate = (key: String, value:(Double))
 
 class ChartsTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
@@ -72,8 +72,6 @@ class ChartsTableViewController: UITableViewController, UIPickerViewDelegate, UI
             } else {
                 self.beginCalculation.completeAnimation(status: .failed)
             }
-            
-            
         }
 
         yearPicker.delegate = self
@@ -285,12 +283,6 @@ extension ChartsTableViewController: IAxisValueFormatter {
         numFormatter.maximumFractionDigits = 1
         
         return numFormatter.string(from: NSNumber (value:value))!
-    }
-}
-
-extension Double {
-    var kFormatted: String {
-        return String(format: self >= 1000 ? "$%.0fK" : "$%.0f", self >= 1000 ? self/1000 : self)
     }
 }
 
